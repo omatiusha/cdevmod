@@ -1,0 +1,11 @@
+ 0010 00000000 00000000 00000000 00000000  ................
+ 0020 00000000 00000000                    ........        
+Contents of section .text.cdev_write:
+ 0000 e8000000 005531c0 4889e55d c3        .....U1.H..].   
+Contents of section .rodata.cdev_read.str1.1:
+ 0000 4e4f5420 50415443 4845440a 00696e63  NOT PATCHED..inc
+ 0010 6c756465 2f6c696e 75782f74 68726561  lude/linux/threa
+ 0020 645f696e 666f2e68 00                 d_info.h.       
+Contents of section .text.cdev_read:
+ 0000 e8000000 005531c0 4889e541 54534889  .....U1.H..ATSH.
+ 0010 d3488b11 4883fa0c 7734488d 041a4889  .H..H...w4H...H.

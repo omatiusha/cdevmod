@@ -7,7 +7,7 @@ index c6bc4dd..3760c2c 100644
  static ssize_t cdev_read(struct file *file, char __user *buf, size_t count, loff_t *loff)
  {
 -    const static char *output = "NOT PATCHED\n";
-+    const static char *output = "PATCHED PATCHED PATCHED GUDMONIN TROEKUROV\n";
++    const static char *output = "PATCHED PATCHED PATCHED PATCHED\n";
      unsigned long bytes_read = 0;
      unsigned long n = strlen(output);
  
