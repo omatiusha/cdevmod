@@ -3,7 +3,7 @@ Here is the problem.
 
 My dir structure is following:
 
-..
+```..
   |-linux       (here resides the source code for linux kernel 5.14.0-09718-g4b93c544e90e, 
   |              built with GCC Ubuntu 9.3.0-17ubuntu1~20.04 + binutils 2.34)
   |-linux-cross (here resides the source code for linux kernel 5.14.0-09718-g4b93c544e90e, 
@@ -11,7 +11,7 @@ My dir structure is following:
   |              from https://mirrors.edge.kernel.org/pub/tools/crosstool/).
   |              Tried also versions 9.4 and 11.1 from there.
   |-extmodules - This repo.         
-         
+  ```       
         
      
 I am trying to get my module working with kpatch (github.com/dynup/kpatch) and get stuck debugging the compiler.
