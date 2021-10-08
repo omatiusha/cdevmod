@@ -1,0 +1,13 @@
+diff --git a/cdevmod.c b/cdevmod.c
+index c6bc4dd..3760c2c 100644
+--- a/cdevmod.c
++++ b/cdevmod.c
+@@ -66,7 +66,7 @@ static int cdev_release(struct inode *inode, struct file *file)
+ 
+ static ssize_t cdev_read(struct file *file, char __user *buf, size_t count, loff_t *loff)
+ {
+-    const static char *output = "NOT PATCHED\n";
++    const static char *output = "PATCHED PATCHED PATCHED GUDMONIN TROEKUROV\n";
+     unsigned long bytes_read = 0;
+     unsigned long n = strlen(output);
+ 
